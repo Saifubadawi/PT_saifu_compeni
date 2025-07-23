@@ -1,0 +1,25 @@
+
+# Hindari file koneksi database
+db.php
+
+# File database lokal atau backup
+*.sql
+/database/
+db/
+
+# File log, cache, dan sementara
+*.log
+*.tmp
+*.bak
+
+# File dan folder editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jika menggunakan package manager (Composer / Node)
+vendor/
+node_modules/

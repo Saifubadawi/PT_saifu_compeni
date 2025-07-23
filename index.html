@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="split-screen">
+        <div class="left">
+            <section class="copy">
+                <h1>Welcome</h1>
+                <p>saifu badwi</p>
+            </section>
+        </div>
+        <div class="right">
+            <form action="sing.php" method="POST">
+                <section class="copy">
+                    <h2>Login</h2>
+                    <div class="login-container">
+                        <p>
+                            Tidak mempunyai akun? <a href="reges.html"><strong>Daftar</strong></a>
+                        </p>
+                    </div>
+                </section>
+                <!-- <div class="input-container name">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Your name" required />
+                </div> -->
+                <div class="input-container email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required />
+                </div>
+                <div class="input-container password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="At least 6 characters" required />
+                </div>
+                <div class="input-container cta">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="email_updates" />
+                        <span class="checkmark"></span>
+                        Sign up for email updates
+                    </label>
+                </div>
+                <button class="signup-btn" type="submit">Login</button>
+                <section class="copy legal">
+                    <p>
+                        <span class="small">By continuing, you agree to accept our<br />
+                            <a href="#">Privacy Policy</a> &amp; <a href="#">Terms of Services</a></span>
+                    </p>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
